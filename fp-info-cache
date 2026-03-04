@@ -1,4 +1,4 @@
-26792365069815079
+26792369581149826
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,69 +13,6 @@ audio belton reverb
 0
 7
 7
-BPB-Footprints
-Hirose_A3C-4DA-2DSA(71)
-A3C-4DA-2DSA(71)-3
-Connector
-0
-4
-4
-BPB-Footprints
-Hirose_A3C-4DA-2DSA(71)_Mirrored
-A3C-4DA-2DSA(71)-3
-Connector
-0
-4
-4
-BPB-Footprints
-Hirose_A3C-50DA-2DSC(71)
-A3C-50DA-2DSA(71)
-Connector
-0
-50
-50
-BPB-Footprints
-Hirose_A3C-50DA-2DSC(71)_Mirrored
-A3C-50DA-2DSA(71)
-Connector
-0
-50
-50
-BPB-Footprints
-Hirose_DF14-15P-1.25H(52)
-
-DF14-15P-1.25H56 
-0
-17
-17
-BPB-Footprints
-Hirose_DF14-30P-1.25H(35)
-DF14-30P-1.25H(35)-1
-Connector
-0
-32
-32
-BPB-Footprints
-Molex_0554600272
-55460-0272-1
-Connector
-0
-4
-4
-BPB-Footprints
-PSR-210153-20_P2.00mm
-HIROSUGI-KEIKI PSR-210153-20, 1x20, 2.00mm pitch, right-angle/horizontal, through-hole
-connector 1x20 2mm right-angle horizontal PSR-210153 HIROSUGI
-0
-20
-20
-BPB-Footprints
-PSR-210153-20_P2.00mm_Mirrored
-Through hole angled pin header, 1x20, 2.00mm pitch, 4.2mm pin length, single row
-Through hole angled pin header THT 1x20 2.00mm single row
-0
-20
-20
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -59436,6 +59373,69 @@ ceramic
 0
 3
 3
+Custom-Footprints
+Hirose_A3C-4DA-2DSA(71)
+A3C-4DA-2DSA(71)-3
+Connector
+0
+4
+4
+Custom-Footprints
+Hirose_A3C-4DA-2DSA(71)_Mirrored
+A3C-4DA-2DSA(71)-3
+Connector
+0
+4
+4
+Custom-Footprints
+Hirose_A3C-50DA-2DSC(71)
+A3C-50DA-2DSA(71)
+Connector
+0
+50
+50
+Custom-Footprints
+Hirose_A3C-50DA-2DSC(71)_Mirrored
+A3C-50DA-2DSA(71)
+Connector
+0
+50
+50
+Custom-Footprints
+Hirose_DF14-15P-1.25H(52)
+
+DF14-15P-1.25H56 
+0
+17
+17
+Custom-Footprints
+Hirose_DF14-30P-1.25H(35)
+DF14-30P-1.25H(35)-1
+Connector
+0
+32
+32
+Custom-Footprints
+Molex_0554600272
+55460-0272-1
+Connector
+0
+4
+4
+Custom-Footprints
+PSR-210153-20_P2.00mm
+HIROSUGI-KEIKI PSR-210153-20, 1x20, 2.00mm pitch, right-angle/horizontal, through-hole
+connector 1x20 2mm right-angle horizontal PSR-210153 HIROSUGI
+0
+20
+20
+Custom-Footprints
+PSR-210153-20_P2.00mm_Mirrored
+Through hole angled pin header, 1x20, 2.00mm pitch, 4.2mm pin length, single row
+Through hole angled pin header THT 1x20 2.00mm single row
+0
+20
+20
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
