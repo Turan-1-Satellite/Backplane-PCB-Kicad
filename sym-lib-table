@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "BPB-Symbols")(type "KiCad")(uri "${KIPRJMOD}/Symbols/BPB-Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom-Symbols")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Symbols/BPB-Symbols.kicad_sym")(options "")(descr ""))
 )

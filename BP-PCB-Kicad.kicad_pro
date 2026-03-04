@@ -461,12 +461,16 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Library"
+      "Library",
+      "Footprints",
+      "Custom-Footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Custom-Symbols"
+    ]
   },
   "meta": {
-    "filename": "PCB-Kicad.kicad_pro",
+    "filename": "BP-PCB-Kicad.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -505,7 +509,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BP-PCB-Kicad.step",
       "svg": "",
       "vrml": ""
     },
