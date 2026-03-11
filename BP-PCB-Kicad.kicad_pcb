@@ -225,7 +225,7 @@
 	(net 145 "UART (ADCS_to_GPS)")
 	(net 146 "ADCS-ADB UART (ADCSSTM32_to_Debug)")
 	(net 147 "FSS-M1_3v3")
-	(net 148 "unconnected-(J21-Pad10)")
+	(net 148 "UART (ADCS_to_CCB)")
 	(net 149 "SUP_12V")
 	(net 150 "SUP_12V0")
 	(net 151 "FSS-M1-ES_SCL")
@@ -249,17 +249,17 @@
 	(net 169 "unconnected-(J27-PadMP2)")
 	(net 170 "DIO_Fault_Indicator")
 	(net 171 "unconnected-(J23-Pad18)")
-	(net 172 "unconnected-(J19-Pad13)")
-	(net 173 "DIO Thruster ON{slash}OFF")
+	(net 172 "UART (CCB_to_ADCS)")
+	(net 173 "Thruster_1")
 	(net 174 "MUX-Thruster UART_1 (Thruster_to_MainPIC)")
-	(net 175 "unconnected-(J19-Pad14)")
+	(net 175 "Thruster_2")
 	(net 176 "DIO_Thruster_Active")
-	(net 177 "unconnected-(J19-Pad15)")
+	(net 177 "Thruster_3")
 	(net 178 "MUX-Thruster UART_1 (MainPIC_to_Thruster)")
 	(net 179 "unconnected-(J23-Pad4)")
-	(net 180 "SUP_SYS")
-	(net 181 "unconnected-(J19-Pad12)")
-	(net 182 "unconnected-(J19-Pad11)")
+	(net 180 "SUP_3V3")
+	(net 181 "DIO_HW_Reset")
+	(net 182 "unconnected-(J21-Pad36)")
 	(net 183 "GPS_1PPS")
 	(net 184 "POWERSC_-X2")
 	(net 185 "POWERSC_-X1")
@@ -268,9 +268,9 @@
 	(net 188 "unconnected-(J28-Pin_20-Pad20)")
 	(net 189 "TEMP_3v3")
 	(net 190 "unconnected-(J23-Pad5)")
-	(net 191 "unconnected-(J24-Pad18)")
+	(net 191 "Thruster-2")
 	(net 192 "unconnected-(J24-Pad46)")
-	(net 193 "unconnected-(J24-Pad17)")
+	(net 193 "Thruster-1")
 	(net 194 "unconnected-(J24-Pad21)")
 	(net 195 "unconnected-(J24-Pad45)")
 	(net 196 "unconnected-(J24-Pad22)")
@@ -280,6 +280,7 @@
 	(net 200 "unconnected-(J18-PadMP1)")
 	(net 201 "unconnected-(J19-PadMP1)")
 	(net 202 "unconnected-(J19-PadMP2)")
+	(net 203 "Thurster_3")
 	(footprint "Custom-Footprints:Molex_0554600272"
 		(layer "F.Cu")
 		(uuid "169f240a-f8cf-4b18-a164-c11ed10b1fdc")
@@ -309,7 +310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/55460-0272.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -321,7 +322,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headers & Wire Housings 2MM SR 2P SMT HDR VERT WIRE-TO-BD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -329,6 +330,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "7.2"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a2c1ec5-b95d-4cc8-a346-60cbac963316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-55460-0272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "464844c2-3400-4e15-9bd0-68068cad3e36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/55460-0272?qs=z57USrEQgt05txr3Jqq%2FhA%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76127ebe-3aed-426e-bc09-c99602b70d74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd465191-22be-4379-a54f-06cced9339d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "55460-0272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eeaebbb-b79f-417d-bdb1-d24f5adeca46")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -506,7 +572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000141205.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -518,7 +584,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hirose A3C Series 2mm 50 Way 2 Row Straight PCB Socket Through Hole Board to Wire"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -526,6 +592,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6868891d-65df-409c-8efd-c4f369dd311f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-50DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a57eb8c-3c64-4cc9-8a45-9a5f99ba663d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-50DA-2DSA71?qs=eDUdFcBPps0W11ayo6l5uA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6789a261-1e92-4edc-9d03-b7a88692f01d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90db1b60-f121-4178-b556-fd58da4d8dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-50DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15711f55-324d-4fa1-90c0-b04ee4e7b30e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1003,9 +1134,9 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 193 "unconnected-(J24-Pad17)")
+			(net 172 "UART (CCB_to_ADCS)")
 			(pinfunction "17")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "48df589a-1a64-4d4d-abb4-5eabfd14b816")
 		)
 		(pad "18" thru_hole circle
@@ -1014,9 +1145,9 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 191 "unconnected-(J24-Pad18)")
+			(net 148 "UART (ADCS_to_CCB)")
 			(pinfunction "18")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "01af0c88-65e7-49e6-9a0b-a6d7749554bf")
 		)
 		(pad "19" thru_hole circle
@@ -1413,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/55460-0272.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1425,7 +1556,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headers & Wire Housings 2MM SR 2P SMT HDR VERT WIRE-TO-BD"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1433,6 +1564,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "7.2"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f071503-7b5d-4200-8af9-9469247e1211")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-55460-0272"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9213f65b-8124-4487-8c78-6adc368023e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/55460-0272?qs=z57USrEQgt05txr3Jqq%2FhA%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2d05a83-0ed9-4345-9dfa-da61480125b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc48752e-3785-4ff4-bd64-a788b800e789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "55460-0272"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cc71c7f-7e38-4c2b-bda7-d0711db26947")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1610,7 +1806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/ja/product/document?clcode=CL0621-0501-6-71&productname=A3C-4DA-2DSA(71)&series=A3&documenttype=2DDrawing&lang=ja&documentid=0000805145"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1622,7 +1818,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 Position Receptacle Connector 0.079\" (2.00mm) Through Hole Gold"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1630,6 +1826,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca2fc63-e5b9-4d11-939f-715694dd5f33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-4DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "026e9184-bf09-4159-bec8-031c0ea2f493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-4DA-2DSA71?qs=eDUdFcBPps1yjd6mEORBTw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53ceba59-e33b-4e53-8153-61c147b2aea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ceb5bb5-53b3-4ff0-83cc-3ab670d4809d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-4DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f6abce3-4aec-4e5a-87be-b0b7d487480f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1866,7 +2127,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000141205.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1878,7 +2139,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hirose A3C Series 2mm 50 Way 2 Row Straight PCB Socket Through Hole Board to Wire"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1886,6 +2147,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d99479a-2b69-43c8-9f36-ff2136344a80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-50DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b35b5d1-354c-4e44-a1c2-c49c50621fe5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-50DA-2DSA71?qs=eDUdFcBPps0W11ayo6l5uA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8fd49f3-9407-468e-8a5d-c1476a7fcbd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae836205-a86e-4b2a-9a35-143514bd3c89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-50DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9e137cb-6869-4d7f-b813-04d649d61dd9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2773,7 +3099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000141205.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2785,7 +3111,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hirose A3C Series 2mm 50 Way 2 Row Straight PCB Socket Through Hole Board to Wire"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2793,6 +3119,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b4486e1-0145-44a2-97c2-a8f6b40de5ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-50DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a83fcafe-e5e8-42e5-b503-5618389b1273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-50DA-2DSA71?qs=eDUdFcBPps0W11ayo6l5uA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f19e6822-b124-4d44-a4f7-2d64bae1ede7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df7cc4b8-2caf-4fd7-8bb0-f8047978bacf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-50DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84586ef2-4004-4b56-97fb-0eb994606238")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3193,9 +3584,9 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 148 "unconnected-(J21-Pad10)")
+			(net 181 "DIO_HW_Reset")
 			(pinfunction "10")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "8881ee73-cf12-44ed-9268-dc601f5b7f89")
 		)
 		(pad "11" thru_hole circle
@@ -3248,7 +3639,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "SUP_5V_1")
+			(net 176 "DIO_Thruster_Active")
 			(pinfunction "15")
 			(pintype "passive")
 			(uuid "668526e4-a51c-4e30-905f-daa7a4ddeac7")
@@ -3259,7 +3650,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "SUP_5V_1")
+			(net 170 "DIO_Fault_Indicator")
 			(pinfunction "16")
 			(pintype "passive")
 			(uuid "130016c5-fe6a-4307-9da3-6262c62bb294")
@@ -3314,7 +3705,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "DIO_UHF_Antenna_Deploy")
+			(net 37 "OBC-ADB UART_3 (RelayPIC_to_ComPIC)")
 			(pinfunction "21")
 			(pintype "passive")
 			(uuid "e5e803f3-4f0b-4627-bfa8-fd0801d502a3")
@@ -3325,7 +3716,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "OBC-ADB UART_3 (RelayPIC_to_ComPIC)")
+			(net 57 "Battery_Voltage_Check")
 			(pinfunction "22")
 			(pintype "passive")
 			(uuid "7da4e839-0cf0-406c-b25c-8d0a54e34328")
@@ -3358,7 +3749,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "SUP_5V_2")
+			(net 193 "Thruster-1")
 			(pinfunction "25")
 			(pintype "passive")
 			(uuid "5c71b85e-f8d1-476e-9498-2e5f18c2c3ca")
@@ -3369,7 +3760,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "SUP_5V_2")
+			(net 191 "Thruster-2")
 			(pinfunction "26")
 			(pintype "passive")
 			(uuid "4235a78d-642c-47bb-92b2-6b95226abe15")
@@ -3468,7 +3859,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "SUP_UNREG_2")
+			(net 203 "Thurster_3")
 			(pinfunction "35")
 			(pintype "passive")
 			(uuid "734f44c0-9343-4c5f-a021-a81a75db987d")
@@ -3479,9 +3870,9 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "SUP_UNREG_2")
+			(net 182 "unconnected-(J21-Pad36)")
 			(pinfunction "36")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1c752cf2-5201-4178-a1e5-5e2dbdfb7d0e")
 		)
 		(pad "37" thru_hole circle
@@ -3545,7 +3936,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Battery_Voltage_Check")
+			(net 59 "DIO_UHF_Antenna_Deploy")
 			(pinfunction "42")
 			(pintype "passive")
 			(uuid "0ff2f771-68d3-4509-b382-7a4c15fec8b1")
@@ -3680,7 +4071,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3692,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6495,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/ja/product/document?clcode=CL0621-0501-6-71&productname=A3C-4DA-2DSA(71)&series=A3&documenttype=2DDrawing&lang=ja&documentid=0000805145"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6507,7 +6898,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 Position Receptacle Connector 0.079\" (2.00mm) Through Hole Gold"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6515,6 +6906,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8662632f-7cdd-41aa-843e-c5361e109379")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-4DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cee96122-42c5-4379-bebf-09581e3eaca3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-4DA-2DSA71?qs=eDUdFcBPps1yjd6mEORBTw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e641523f-a387-47d1-8952-c276c2cc8686")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43df0674-b91d-4a06-95f2-72e1d8cf0b02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-4DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fd6ad94-b5e1-4959-a7fd-34459a6064ad")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6751,7 +7207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/55460-0272.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6763,7 +7219,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headers & Wire Housings 2MM SR 2P SMT HDR VERT WIRE-TO-BD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6771,6 +7227,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "7.2"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6888d969-c7a2-40c0-bc39-8c9501877fc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-55460-0272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32d442cf-d6ef-4ddb-95cd-ab7192bb9818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/55460-0272?qs=z57USrEQgt05txr3Jqq%2FhA%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17691d48-457f-4b8b-9625-eeb1731d73b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76d08989-3804-4263-b3f3-17fc05e41a3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "55460-0272"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d67b832-505f-46d5-abee-c90e6ee41f61")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6948,7 +7469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000141205.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6960,7 +7481,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hirose A3C Series 2mm 50 Way 2 Row Straight PCB Socket Through Hole Board to Wire"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6968,6 +7489,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64392b67-3d2d-4513-8613-28252df59be5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-50DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b1af2c-1cc2-4b72-ac9d-d49d3567573c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-50DA-2DSA71?qs=eDUdFcBPps0W11ayo6l5uA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1eaf3ca-4cf7-4fcd-9172-bc2bf69e3686")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0923a53b-684c-4782-90f6-4486e6622b85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-50DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6d7ee0a-2d1c-443a-bb33-a1100927b786")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7855,7 +8441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/ja/product/document?clcode=CL0621-0501-6-71&productname=A3C-4DA-2DSA(71)&series=A3&documenttype=2DDrawing&lang=ja&documentid=0000805145"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7867,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 Position Receptacle Connector 0.079\" (2.00mm) Through Hole Gold"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7875,6 +8461,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15c713c0-345a-4eac-91f2-7d79fcee5aca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-4DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "121a8168-9b26-41ea-8333-df72edbdd994")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-4DA-2DSA71?qs=eDUdFcBPps1yjd6mEORBTw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1ef7aef-09a8-4e8f-b3a6-7fff945e27b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2481e1da-11ae-4eb0-9e9e-4b417f2ff75f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-4DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14bc7b08-3a32-4f64-8196-40ac1557486a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8111,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000141205.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8123,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hirose A3C Series 2mm 50 Way 2 Row Straight PCB Socket Through Hole Board to Wire"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8131,6 +8782,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d365c16-810d-490b-995d-3ba619229cdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-50DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "624bec90-641f-40bc-b330-41b63b755856")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-50DA-2DSA71?qs=eDUdFcBPps0W11ayo6l5uA%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ff37ced-9188-4daa-bd26-220ef0de7f84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46252f19-3467-46b6-9a52-401184d566f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-50DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d646f459-0e72-4e3f-9017-470a5fdd0cf3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9017,7 +9733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9029,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11819,7 +12535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/ja/product/document?clcode=CL0621-0501-6-71&productname=A3C-4DA-2DSA(71)&series=A3&documenttype=2DDrawing&lang=ja&documentid=0000805145"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11831,7 +12547,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 Position Receptacle Connector 0.079\" (2.00mm) Through Hole Gold"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11839,6 +12555,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "4.4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96bedf35-364e-4fff-bacb-a52901b2774e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "798-A3C-4DA-2DSA71"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a150019-90a7-43ab-aae7-bc35f4ace73b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/A3C-4DA-2DSA71?qs=eDUdFcBPps1yjd6mEORBTw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b8ac803-8ad7-4bd9-9d36-b48347115a3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3f73a8c-8a51-40d2-a81d-09301fe7824b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3C-4DA-2DSA(71)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2d54fb3-1e22-44a5-9f20-5384d58a4c9c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12077,7 +12858,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "DF14-15P-1.25H52"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12368,7 +13149,7 @@
 			(at 5 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 180 "SUP_SYS")
+			(net 180 "SUP_3V3")
 			(pinfunction "5")
 			(pintype "unspecified")
 			(uuid "c35e5dc8-3857-4c4b-a651-4fd49d7af03a")
@@ -12377,7 +13158,7 @@
 			(at 6.25 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 178 "MUX-Thruster UART_1 (MainPIC_to_Thruster)")
+			(net 7 "GND_SYS")
 			(pinfunction "6")
 			(pintype "unspecified")
 			(uuid "b56f11d9-3f87-41b7-b092-b09835edbced")
@@ -12386,7 +13167,7 @@
 			(at 7.5 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 174 "MUX-Thruster UART_1 (Thruster_to_MainPIC)")
+			(net 178 "MUX-Thruster UART_1 (MainPIC_to_Thruster)")
 			(pinfunction "7")
 			(pintype "unspecified")
 			(uuid "4f38336d-626e-44bb-b76c-917039cc3e65")
@@ -12395,7 +13176,7 @@
 			(at 8.75 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 173 "DIO Thruster ON{slash}OFF")
+			(net 174 "MUX-Thruster UART_1 (Thruster_to_MainPIC)")
 			(pinfunction "8")
 			(pintype "unspecified")
 			(uuid "456b0e71-1fac-47fe-9d8d-5ac7595666c8")
@@ -12404,7 +13185,7 @@
 			(at 10 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 176 "DIO_Thruster_Active")
+			(net 72 "DIO_Thruster_ON{slash}OFF")
 			(pinfunction "9")
 			(pintype "unspecified")
 			(uuid "9f5cece2-4ea9-4988-af4c-2315f80d89c9")
@@ -12413,7 +13194,7 @@
 			(at 11.25 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 170 "DIO_Fault_Indicator")
+			(net 176 "DIO_Thruster_Active")
 			(pinfunction "10")
 			(pintype "unspecified")
 			(uuid "02ffee6b-4300-4b25-a1c1-09e0aa1b233c")
@@ -12422,45 +13203,45 @@
 			(at 12.5 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 182 "unconnected-(J19-Pad11)")
+			(net 170 "DIO_Fault_Indicator")
 			(pinfunction "11")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "fcda13eb-482f-4a33-8e18-631dfd7e93ae")
 		)
 		(pad "12" smd rect
 			(at 13.75 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 181 "unconnected-(J19-Pad12)")
+			(net 181 "DIO_HW_Reset")
 			(pinfunction "12")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "c6c4a94a-2f1a-45a8-9232-aaf98573483e")
 		)
 		(pad "13" smd rect
 			(at 15 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 172 "unconnected-(J19-Pad13)")
+			(net 173 "Thruster_1")
 			(pinfunction "13")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "3d33b254-e48d-42fe-b0fe-59d5394b8267")
 		)
 		(pad "14" smd rect
 			(at 16.25 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 175 "unconnected-(J19-Pad14)")
+			(net 175 "Thruster_2")
 			(pinfunction "14")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "6314eba9-466a-42f2-aff3-6c37ec6cb946")
 		)
 		(pad "15" smd rect
 			(at 17.5 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 177 "unconnected-(J19-Pad15)")
+			(net 177 "Thruster_3")
 			(pinfunction "15")
-			(pintype "unspecified+no_connect")
+			(pintype "unspecified")
 			(uuid "a4de31b5-0a9d-458a-8c04-c394b87f168a")
 		)
 		(pad "MP1" smd rect
@@ -12525,7 +13306,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "DF14-15P-1.25H52"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -12973,7 +13754,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0538-0020-1-35&productname=DF14-30P-1.25H(35)&series=DF14&documenttype=2DDrawing&lang=en&documentid=0001395068"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12986,7 +13767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headers & Wire Housings CONN HEADER SMD R/A 30POS 1.25MM"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12994,6 +13775,76 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Height" "2.7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e7407a9f-9275-46b9-ad17-0144fa1dcc25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Part Number" "798-DF1430P125H35"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf405b23-abf0-498d-894d-676399385531")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF14-30P-1.25H35?qs=QNEnbhJQKvYgGwfsHBrQ7Q%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "583e772d-fda8-4c88-b3c9-b8a79c0d1143")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a418532-1e42-4023-aee3-779092f58f3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF14-30P-1.25H(35)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43e281a5-5b58-4990-a2b5-c8228629382e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -13264,7 +14115,7 @@
 			(at 3.75 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 156 "FSS-M1-ES_SDA")
+			(net 172 "UART (CCB_to_ADCS)")
 			(pinfunction "4")
 			(pintype "passive")
 			(uuid "cf3befd7-3a5a-4ded-87db-4110ef6f537f")
@@ -13273,7 +14124,7 @@
 			(at 5 0 180)
 			(size 0.7 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 151 "FSS-M1-ES_SCL")
+			(net 148 "UART (ADCS_to_CCB)")
 			(pinfunction "5")
 			(pintype "passive")
 			(uuid "42c3783a-589f-4846-b19e-97f807235d81")
@@ -13565,7 +14416,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "DF14-15P-1.25H52"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)

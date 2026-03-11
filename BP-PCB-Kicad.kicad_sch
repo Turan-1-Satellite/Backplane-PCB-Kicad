@@ -3656,16 +3656,8 @@
 		(uuid "1579a5db-c471-4514-8f12-be3c86a4c073")
 	)
 	(no_connect
-		(at 163.83 154.94)
-		(uuid "16d42b05-2120-43f4-8ec3-19a117040dc8")
-	)
-	(no_connect
 		(at 154.94 273.05)
 		(uuid "1745234f-2fec-4442-92b5-ea6cba98f977")
-	)
-	(no_connect
-		(at 191.77 43.18)
-		(uuid "1cacdb94-78d7-4c41-80f9-8bbb998bca07")
 	)
 	(no_connect
 		(at 74.93 54.61)
@@ -3696,12 +3688,8 @@
 		(uuid "2fae5302-0c05-4f04-a299-0ec53e0d641e")
 	)
 	(no_connect
-		(at 368.3 172.72)
-		(uuid "2ffe87b1-ba2f-4069-897d-e26fbe85cc71")
-	)
-	(no_connect
-		(at 368.3 177.8)
-		(uuid "30b25c50-fa0b-4fc6-98e7-e62a733e9eae")
+		(at 368.3 180.34)
+		(uuid "3640476c-7c44-4792-a6b3-ebc5d8deb114")
 	)
 	(no_connect
 		(at 69.85 273.05)
@@ -3742,10 +3730,6 @@
 	(no_connect
 		(at 287.02 158.75)
 		(uuid "4ac75aaf-f96c-48c9-8e77-9fd0a4143055")
-	)
-	(no_connect
-		(at 186.69 154.94)
-		(uuid "50ab2f1b-a23d-430a-95d5-173b93f4716c")
 	)
 	(no_connect
 		(at 312.42 138.43)
@@ -3808,10 +3792,6 @@
 		(uuid "7f3f99e2-3191-434a-9791-fe4d8a8349d2")
 	)
 	(no_connect
-		(at 368.3 180.34)
-		(uuid "7f66a8c1-f2b8-409f-a333-a1c65f7feedc")
-	)
-	(no_connect
 		(at 222.25 281.94)
 		(uuid "7fca776d-5b1c-4674-b3ce-02d8b538f20c")
 	)
@@ -3834,10 +3814,6 @@
 	(no_connect
 		(at 74.93 72.39)
 		(uuid "8e86a533-cd1c-4208-a7cf-92b6efaa84ef")
-	)
-	(no_connect
-		(at 368.3 167.64)
-		(uuid "90a4a717-8e60-4213-b457-aad4992d45c0")
 	)
 	(no_connect
 		(at 287.02 212.09)
@@ -3872,6 +3848,10 @@
 		(uuid "b28d8ad9-76ef-4666-869f-34ff87cc2285")
 	)
 	(no_connect
+		(at 191.77 76.2)
+		(uuid "b58693cf-b62c-4b40-bd70-cb99aac2ff71")
+	)
+	(no_connect
 		(at 74.93 147.32)
 		(uuid "b85ae959-fba0-4af3-8fc6-607e082e01b6")
 	)
@@ -3900,10 +3880,6 @@
 		(uuid "c4d33c0a-de06-452d-a3b1-83c38388d23b")
 	)
 	(no_connect
-		(at 368.3 175.26)
-		(uuid "ce69d7ee-5383-49a8-8cb7-b3317f6252f9")
-	)
-	(no_connect
 		(at 69.85 275.59)
 		(uuid "d09ad1a9-3be9-44ba-99d0-05a5e23e9fa3")
 	)
@@ -3916,20 +3892,16 @@
 		(uuid "d5c17e37-f620-4bff-a172-6cc369e0ae19")
 	)
 	(no_connect
-		(at 368.3 170.18)
-		(uuid "d745b50b-29b4-41c0-b7d4-ab11e6965eb2")
-	)
-	(no_connect
-		(at 368.3 165.1)
-		(uuid "e0250d47-af6f-4606-be31-55485f3974c8")
-	)
-	(no_connect
 		(at 154.94 242.57)
 		(uuid "e3084080-9a49-4242-8b82-63bee75ed58a")
 	)
 	(no_connect
 		(at 186.69 190.5)
 		(uuid "eb17aeea-8a5b-44c4-b883-55abf8a2c1f6")
+	)
+	(no_connect
+		(at 368.3 177.8)
+		(uuid "f181aa37-9156-4642-b124-40cbf0887a7c")
 	)
 	(wire
 		(pts
@@ -4090,16 +4062,6 @@
 			(type default)
 		)
 		(uuid "0f58f2bc-736e-40de-9b7b-0415d179f620")
-	)
-	(wire
-		(pts
-			(xy 191.77 76.2) (xy 193.04 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa42589-d378-4c23-8983-4b7852359a6e")
 	)
 	(wire
 		(pts
@@ -4513,6 +4475,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 167.64) (xy 368.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9f94d9-e5da-4e97-8dbf-f71fe051b337")
+	)
+	(wire
+		(pts
 			(xy 74.93 152.4) (xy 77.47 152.4)
 		)
 		(stroke
@@ -4760,6 +4732,16 @@
 			(type default)
 		)
 		(uuid "4221c3ba-f46f-4da4-ae21-2a0653820162")
+	)
+	(wire
+		(pts
+			(xy 365.76 175.26) (xy 368.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426c290f-68d8-457d-b65f-a149e1b9e6b3")
 	)
 	(wire
 		(pts
@@ -5393,6 +5375,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 165.1) (xy 368.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd51d68-962d-44a4-b4fa-9c5519db8d14")
+	)
+	(wire
+		(pts
 			(xy 278.13 265.43) (xy 279.4 265.43)
 		)
 		(stroke
@@ -5663,6 +5655,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 154.94) (xy 163.83 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877aab94-fd45-4323-84bd-aee7ecc59890")
+	)
+	(wire
+		(pts
 			(xy 300.99 93.98) (xy 303.53 93.98)
 		)
 		(stroke
@@ -5930,6 +5932,16 @@
 			(type default)
 		)
 		(uuid "96ca67aa-6d97-4346-b052-8ab30e857981")
+	)
+	(wire
+		(pts
+			(xy 365.76 172.72) (xy 368.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ae9253-3902-414c-93b2-8198403fa7e1")
 	)
 	(wire
 		(pts
@@ -6533,6 +6545,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 170.18) (xy 368.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaeab3b-4b34-491c-975a-19cbf13f7dae")
+	)
+	(wire
+		(pts
 			(xy 326.39 99.06) (xy 328.93 99.06)
 		)
 		(stroke
@@ -6863,6 +6885,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 43.18) (xy 193.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e916ee18-0dcd-4dde-8e3e-d26c6085acde")
+	)
+	(wire
+		(pts
 			(xy 49.53 49.53) (xy 52.07 49.53)
 		)
 		(stroke
@@ -6970,6 +7002,16 @@
 			(type default)
 		)
 		(uuid "f0eef129-cc04-4c01-9981-8beaff46e4e7")
+	)
+	(wire
+		(pts
+			(xy 186.69 154.94) (xy 189.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f102a30b-b696-4860-b619-af3cb383abf1")
 	)
 	(wire
 		(pts
@@ -7291,6 +7333,28 @@
 			)
 		)
 	)
+	(global_label "GND_SYS"
+		(shape input)
+		(at 365.76 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0688ef54-11fb-48ca-ae17-d4fe1f88ba99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 354.4291 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SUP_3V3_1"
 		(shape input)
 		(at 77.47 92.71 0)
@@ -7401,28 +7465,6 @@
 			)
 		)
 	)
-	(global_label "SUP_UNREG_2"
-		(shape input)
-		(at 193.04 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b79d0ef-0908-4ea1-a7e1-cf406b5f6931")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3299 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "S-band_RX_NRZ_4K_CLK"
 		(shape input)
 		(at 152.4 247.65 180)
@@ -7445,7 +7487,7 @@
 			)
 		)
 	)
-	(global_label "SUP_UNREG_2"
+	(global_label "Thurster_3"
 		(shape input)
 		(at 167.64 76.2 180)
 		(fields_autoplaced yes)
@@ -7457,7 +7499,7 @@
 		)
 		(uuid "0ccaaeff-21c5-4985-8bc0-9909bc47e55d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3501 76.2 0)
+			(at 154.7973 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,6 +7527,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Thruster_1"
+		(shape input)
+		(at 365.76 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d45fae8-97e2-4090-b429-624c81fb56c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.9173 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7643,6 +7707,28 @@
 			)
 		)
 	)
+	(global_label "DIO_HW_Reset"
+		(shape input)
+		(at 193.04 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f156e14-d166-4c17-a57a-16c1bb3ff695")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.1486 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OBC-SBAND_TX_UART_CONFIG (ComPIC_to_Sband_TX)"
 		(shape input)
 		(at 328.93 88.9 0)
@@ -7665,7 +7751,7 @@
 			)
 		)
 	)
-	(global_label "SUP_5V_1"
+	(global_label "DIO_Fault_Indicator"
 		(shape input)
 		(at 193.04 50.8 0)
 		(fields_autoplaced yes)
@@ -7677,7 +7763,7 @@
 		)
 		(uuid "10b128a5-7cee-44e2-abee-7111fc24010e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.278 50.8 0)
+			(at 214.3493 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,6 +7835,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX-Thruster UART_1 (MainPIC_to_Thruster)"
+		(shape input)
+		(at 365.76 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1490d765-e95d-4ba9-9247-5efff88341c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.0789 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8039,7 +8147,7 @@
 			)
 		)
 	)
-	(global_label "DIO_UHF_Antenna_Deploy"
+	(global_label "OBC-ADB UART_3 (RelayPIC_to_ComPIC)"
 		(shape input)
 		(at 167.64 58.42 180)
 		(fields_autoplaced yes)
@@ -8051,7 +8159,7 @@
 		)
 		(uuid "204f7d8f-98c2-46eb-9c9e-dd168f6ed31b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0088 58.42 0)
+			(at 125.7687 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,6 +8433,28 @@
 			)
 		)
 	)
+	(global_label "UART (CCB_to_ADCS)"
+		(shape input)
+		(at 285.75 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "284b616d-100b-4540-84c5-27b57ee9778c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.9891 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TEMP_-Z"
 		(shape input)
 		(at 49.53 154.94 180)
@@ -8382,6 +8512,28 @@
 		(uuid "29276b3c-23cf-45d1-8bfe-4a53c8ba1d93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 269.4601 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Thruster_3"
+		(shape input)
+		(at 365.76 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2acac0cc-ed5c-4746-b358-adadc61f6dd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.9173 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +8631,7 @@
 			)
 		)
 	)
-	(global_label "SUP_5V_2"
+	(global_label "Thruster-2"
 		(shape input)
 		(at 193.04 63.5 0)
 		(fields_autoplaced yes)
@@ -8491,7 +8643,7 @@
 		)
 		(uuid "2f9b95a1-d235-4dcf-bce5-4004baf4881a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.278 63.5 0)
+			(at 206.4875 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +8961,7 @@
 			)
 		)
 	)
-	(global_label "DIO_Fault_Indicator"
+	(global_label "DIO_Thruster_Active"
 		(shape input)
 		(at 365.76 162.56 180)
 		(fields_autoplaced yes)
@@ -8821,7 +8973,7 @@
 		)
 		(uuid "39d29d80-f7a2-42b5-b6fb-25f5a1f8e60f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.4507 162.56 0)
+			(at 344.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +9313,7 @@
 			)
 		)
 	)
-	(global_label "Battery_Voltage_Check"
+	(global_label "DIO_UHF_Antenna_Deploy"
 		(shape input)
 		(at 193.04 83.82 0)
 		(fields_autoplaced yes)
@@ -9173,7 +9325,7 @@
 		)
 		(uuid "48c500fe-6ee0-4eb5-997c-e8a2406ee3df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3126 83.82 0)
+			(at 219.6712 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9599,7 @@
 			)
 		)
 	)
-	(global_label "FSS-M1-ES_SCL"
+	(global_label "UART (ADCS_to_CCB)"
 		(shape input)
 		(at 285.75 148.59 180)
 		(fields_autoplaced yes)
@@ -9459,7 +9611,7 @@
 		)
 		(uuid "4ff121ef-e8b6-4941-93b0-6a16e6aba99b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.6178 148.59 0)
+			(at 262.9891 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,6 +9634,50 @@
 		(uuid "505cac43-bd67-4025-b11a-46021deffa2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -94.12 -23.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Thruster_2"
+		(shape input)
+		(at 365.76 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "517e836b-8d2a-4f67-8ee3-958c8c305379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.9173 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART (CCB_to_ADCS)"
+		(shape input)
+		(at 161.29 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5430b178-2192-4d18-8bdf-17619084d923")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5291 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,6 +10061,28 @@
 			)
 		)
 	)
+	(global_label "DIO_HW_Reset"
+		(shape input)
+		(at 365.76 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cd52212-7eb5-46e5-a85d-1879813d1fdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.6514 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ANALOG_RSSI (UHF_to_RelayPIC)"
 		(shape input)
 		(at 77.47 90.17 0)
@@ -10010,28 +10228,6 @@
 		(uuid "5e634137-8fd5-467d-9a3e-d561917e19aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.1187 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIO Thruster ON{slash}OFF"
-		(shape input)
-		(at 365.76 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f323d85-9363-49ec-9e50-1f0d2491ab6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.4547 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,6 +10497,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART (ADCS_to_CCB)"
+		(shape input)
+		(at 189.23 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71821779-9d87-4389-a796-63fa8e350e76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.9909 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11383,28 +11601,6 @@
 			)
 		)
 	)
-	(global_label "MUX-Thruster UART_1 (MainPIC_to_Thruster)"
-		(shape input)
-		(at 365.76 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9307d45c-ba54-465e-9b3e-5b39a5558fbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.0789 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SUP_3V3_1"
 		(shape input)
 		(at 161.29 195.58 180)
@@ -11515,6 +11711,28 @@
 			)
 		)
 	)
+	(global_label "DIO_Fault_Indicator"
+		(shape input)
+		(at 365.76 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97529a17-cc35-4ddf-964e-2f77266773c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.4507 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_SYS"
 		(shape input)
 		(at 76.2 132.08 0)
@@ -11603,7 +11821,7 @@
 			)
 		)
 	)
-	(global_label "OBC-ADB UART_3 (RelayPIC_to_ComPIC)"
+	(global_label "Battery_Voltage_Check"
 		(shape input)
 		(at 193.04 58.42 0)
 		(fields_autoplaced yes)
@@ -11615,7 +11833,7 @@
 		)
 		(uuid "9bec644b-5e26-4de3-a11b-a37e40041d2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.9113 58.42 0)
+			(at 217.3126 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,7 +11975,7 @@
 			)
 		)
 	)
-	(global_label "SUP_5V_1"
+	(global_label "DIO_Thruster_Active"
 		(shape input)
 		(at 167.64 50.8 180)
 		(fields_autoplaced yes)
@@ -11769,7 +11987,7 @@
 		)
 		(uuid "9f039f05-d892-4646-938c-db75a5fe5c97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.402 50.8 0)
+			(at 146.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12197,7 +12415,7 @@
 			)
 		)
 	)
-	(global_label "SUP_5V_2"
+	(global_label "Thruster-1"
 		(shape input)
 		(at 167.64 63.5 180)
 		(fields_autoplaced yes)
@@ -12209,7 +12427,7 @@
 		)
 		(uuid "b2593d40-bc7c-48ee-b80a-8358b7df3c58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.402 63.5 0)
+			(at 154.1925 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,7 +12569,7 @@
 			)
 		)
 	)
-	(global_label "DIO_Thruster_Active"
+	(global_label "DIO_Thruster_ON{slash}OFF"
 		(shape input)
 		(at 365.76 160.02 180)
 		(fields_autoplaced yes)
@@ -12363,7 +12581,7 @@
 		)
 		(uuid "b695e54b-cd5e-4c53-a26c-c7226887a6f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.39 160.02 0)
+			(at 342.4547 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,28 +13119,6 @@
 			)
 		)
 	)
-	(global_label "FSS-M1-ES_SDA"
-		(shape input)
-		(at 285.75 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d116ba16-63bd-4f6f-8aa6-e0fff2b92678")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.5573 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCLR_StartPIC"
 		(shape input)
 		(at 328.93 53.34 0)
@@ -12980,6 +13176,28 @@
 		(uuid "d4568db5-5dc7-49f4-92d8-91ed29cda42f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.4191 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX-Thruster UART_1 (Thruster_to_MainPIC)"
+		(shape input)
+		(at 365.76 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d467e5e5-3c85-479d-95f0-965c692a5fe4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.0789 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13099,7 +13317,7 @@
 			)
 		)
 	)
-	(global_label "SUP_SYS"
+	(global_label "SUP_3V3"
 		(shape input)
 		(at 365.76 149.86 180)
 		(fields_autoplaced yes)
@@ -13904,28 +14122,6 @@
 		(uuid "f22b10e7-02b1-4152-8847-998b85db5188")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -94.12 -23.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MUX-Thruster UART_1 (Thruster_to_MainPIC)"
-		(shape input)
-		(at 365.76 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f25ab8d2-17ca-48cf-9288-5f51e365d1d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.0789 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
