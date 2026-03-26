@@ -1497,7 +1497,7 @@
 		)
 		(uuid "56b5c951-dabc-41b8-bb92-8cd44d5a4500")
 	)
-	(text "-X Panel Temperature Sensor OCP [10mA]"
+	(text "-X Panel Temperature Sensor OCP [20mA]"
 		(exclude_from_sim no)
 		(at 329.946 32.004 0)
 		(effects
@@ -1547,6 +1547,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "073c0eae-11e0-4f7c-b2d1-9ae66d967d84")
+	)
+	(junction
+		(at 285.75 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "075b1634-37e0-4911-8c7c-938547e34348")
 	)
 	(junction
 		(at 181.61 201.93)
@@ -1675,6 +1681,12 @@
 		(uuid "41733704-fbda-43fd-9cba-9f1d2e1acc8f")
 	)
 	(junction
+		(at 293.37 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43fea897-04a0-4924-bcbb-a8d8c8684020")
+	)
+	(junction
 		(at 345.44 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1715,12 +1727,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d85c278-95eb-4eb0-b7a5-bc73baa7cd35")
-	)
-	(junction
-		(at 288.29 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5da91a9a-6923-4ae2-b568-71a7ffdf571a")
 	)
 	(junction
 		(at 175.26 39.37)
@@ -1825,6 +1831,12 @@
 		(uuid "90ef8b77-45ba-451d-89ca-b2df7c029790")
 	)
 	(junction
+		(at 285.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92224116-e63d-4b98-8299-e53461aab6bb")
+	)
+	(junction
 		(at 288.29 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1885,12 +1897,6 @@
 		(uuid "bdbdf824-f446-4953-aa0a-dfa6a69b2ef7")
 	)
 	(junction
-		(at 288.29 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0e237f2-b3c7-4c30-a205-63ef0025eecc")
-	)
-	(junction
 		(at 140.97 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,6 +1950,12 @@
 		(color 0 0 0 0)
 		(uuid "fb343f1a-3716-4f74-8548-0fbd85c137c2")
 	)
+	(junction
+		(at 285.75 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd912ce1-e40c-422b-b122-d4565a39dfaa")
+	)
 	(no_connect
 		(at 346.71 60.96)
 		(uuid "00b9bd89-5d73-44cd-b18e-f0816a4cae1e")
@@ -1977,6 +1989,16 @@
 			(type default)
 		)
 		(uuid "00b6364c-384f-47d5-a7cb-d861263c1c61")
+	)
+	(wire
+		(pts
+			(xy 285.75 50.8) (xy 293.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f17842-9958-4ddb-bdd3-3d50a3254d46")
 	)
 	(wire
 		(pts
@@ -2137,6 +2159,16 @@
 			(type default)
 		)
 		(uuid "0ea1eba9-f70c-4e55-bca7-6cd900b60179")
+	)
+	(wire
+		(pts
+			(xy 285.75 67.31) (xy 285.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1012f8eb-d0e0-4287-b45a-dc7f2aa44e0e")
 	)
 	(wire
 		(pts
@@ -2590,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 95.25) (xy 312.42 95.25)
+			(xy 285.75 95.25) (xy 312.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 85.09) (xy 288.29 95.25)
+			(xy 285.75 85.09) (xy 285.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2987,16 +3019,6 @@
 			(type default)
 		)
 		(uuid "60feb684-eb4c-4056-b0a1-a2992c17ae64")
-	)
-	(wire
-		(pts
-			(xy 288.29 50.8) (xy 311.15 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61250860-6859-46a2-a486-c6e8aabe7227")
 	)
 	(wire
 		(pts
@@ -3050,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 50.8) (xy 288.29 50.8)
+			(xy 276.86 50.8) (xy 285.75 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 62.23) (xy 293.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8ea0e9-60c5-4d95-b7b4-ef398f6f3369")
+	)
+	(wire
+		(pts
 			(xy 140.97 153.67) (xy 140.97 171.45)
 		)
 		(stroke
@@ -3207,16 +3239,6 @@
 			(type default)
 		)
 		(uuid "6fe2a709-e275-457e-a367-0cc4d1f5fbc4")
-	)
-	(wire
-		(pts
-			(xy 308.61 85.09) (xy 288.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70444b4e-4aab-443a-8c36-5583ffe31fff")
 	)
 	(wire
 		(pts
@@ -3267,16 +3289,6 @@
 			(type default)
 		)
 		(uuid "7461b068-0814-4cff-88a1-9a2650f02ed3")
-	)
-	(wire
-		(pts
-			(xy 288.29 50.8) (xy 288.29 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757c3f1c-88f7-4a82-88d3-9fb91e198ffd")
 	)
 	(wire
 		(pts
@@ -3520,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 67.31) (xy 293.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b4e0d5-928c-4f53-a8ea-06a207637b4e")
+	)
+	(wire
+		(pts
 			(xy 374.65 203.2) (xy 374.65 153.67)
 		)
 		(stroke
@@ -3590,7 +3612,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 62.23) (xy 288.29 85.09)
+			(xy 285.75 62.23) (xy 285.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3807,6 +3829,16 @@
 			(type default)
 		)
 		(uuid "a58345b2-ef49-4c77-ad76-eaa974d1ea04")
+	)
+	(wire
+		(pts
+			(xy 285.75 50.8) (xy 285.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a0746e-d510-41be-80fd-fd9654b51efe")
 	)
 	(wire
 		(pts
@@ -4120,6 +4152,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 50.8) (xy 311.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c788b0ef-e11a-4a5a-887d-7d1e14445068")
+	)
+	(wire
+		(pts
 			(xy 340.36 100.33) (xy 374.65 100.33)
 		)
 		(stroke
@@ -4317,6 +4359,16 @@
 			(type default)
 		)
 		(uuid "da9ce065-fdbf-46a3-81da-516ded34e3b3")
+	)
+	(wire
+		(pts
+			(xy 285.75 85.09) (xy 308.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8a910a-50b1-4221-9f9d-3057e7056531")
 	)
 	(wire
 		(pts
@@ -4550,6 +4602,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 54.61) (xy 293.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8eb5a6e-b0e2-421a-bfc6-6f014347d1db")
+	)
+	(wire
+		(pts
 			(xy 142.24 106.68) (xy 143.51 106.68)
 		)
 		(stroke
@@ -4634,7 +4696,7 @@
 	)
 	(global_label "SUP_3V3_1"
 		(shape input)
-		(at 279.4 50.8 180)
+		(at 276.86 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4644,7 +4706,7 @@
 		)
 		(uuid "4135fc39-2003-4919-9cb8-35bfe46e3606")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9525 50.8 0)
+			(at 263.4125 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +5025,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 288.29 58.42 0)
+		(at 285.75 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4971,7 +5033,7 @@
 		(dnp no)
 		(uuid "0898a65f-d9f8-40a0-80c3-51f27178e600")
 		(property "Reference" "R2"
-			(at 290.322 58.166 0)
+			(at 281.178 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5042,7 @@
 			)
 		)
 		(property "Value" "5 Ohm"
-			(at 290.068 60.452 0)
+			(at 277.876 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +5051,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 289.306 58.674 90)
+			(at 286.766 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +5060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 58.42 0)
+			(at 285.75 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5069,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 288.29 58.42 0)
+			(at 285.75 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,6 +6802,75 @@
 			(project "BP-PCB-Kicad"
 				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 293.37 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63235f4d-1a5a-48b6-9093-4f92aa8db2cc")
+		(property "Reference" "R18"
+			(at 295.402 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5 Ohm"
+			(at 295.148 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 294.386 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 293.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4ff61cb-b636-41a9-aaa2-0511e8a30327")
+		)
+		(pin "2"
+			(uuid "02ae2b03-aedc-4937-bb06-0e327547b5a6")
+		)
+		(instances
+			(project "BP-PCB-Kicad"
+				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
+					(reference "R18")
 					(unit 1)
 				)
 			)
