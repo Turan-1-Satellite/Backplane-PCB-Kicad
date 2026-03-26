@@ -9359,7 +9359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_SYS"
+		(property "Value" "GND"
 			(at 99.06 99.568 0)
 			(effects
 				(font
