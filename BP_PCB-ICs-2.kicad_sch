@@ -2144,6 +2144,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1711"
+			(at 74.93 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecd7ee30-1ca0-4207-b3bc-a8926f849929")
 		)
@@ -2205,6 +2214,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7138"
 			(at 105.41 64.77 0)
 			(effects
 				(font
@@ -2318,6 +2336,15 @@
 			)
 		)
 		(property "Description" "Multiplexer/Demultiplexer 4 x 2:1 16-SSOP"
+			(at 104.14 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7138"
 			(at 104.14 154.94 0)
 			(effects
 				(font
@@ -2494,6 +2521,15 @@
 		)
 		(property "Description" "capacitor, US symbol"
 			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1711"
+			(at 80.01 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
