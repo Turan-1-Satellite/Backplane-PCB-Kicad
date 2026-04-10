@@ -584,7 +584,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 17.78 6.35 180)
 					(length 5.08)
 					(name "OUT"
@@ -1636,6 +1636,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LTC4361CTS8-2TRMPBF_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at -3.0026 8.5183 0)
+				(effects
+					(font
+						(size 2.0848 1.772)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTC4361CTS8-2TRMPBF"
+				(at -20.7092 13.3839 0)
+				(effects
+					(font
+						(size 2.0859 1.773)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Custom-Footprints:LTC4361HTS8"
+				(at -15.24 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC4361CTS8-2TRMPBF_1_1_0"
+				(polyline
+					(pts
+						(xy -12.7 11.43) (xy -12.7 -11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -11.43) (xy 12.7 -11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 11.43) (xy -12.7 11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -11.43) (xy 12.7 11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "~{ON}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "SENSE"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "~{PWRGD}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "GATEP"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LTC4380IMS-4#PBF_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2625,12 +2870,6 @@
 		(uuid "de6b460f-b5a8-44b2-8b89-a262ddba3966")
 	)
 	(junction
-		(at 350.52 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0a2cfab-d316-4e7d-a6f4-e61713c8ba28")
-	)
-	(junction
 		(at 173.99 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2852,7 +3091,17 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 220.98) (xy 350.52 220.98)
+			(xy 388.62 220.98) (xy 388.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08379401-cef3-497d-80cc-4b27eaa575a4")
+	)
+	(wire
+		(pts
+			(xy 344.17 220.98) (xy 354.33 220.98)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 138.43) (xy 379.73 138.43)
+			(xy 375.92 138.43) (xy 388.62 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4172,16 +4421,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 220.98) (xy 354.33 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b03a8b6-8131-4d4c-a36a-eb74de58e35b")
-	)
-	(wire
-		(pts
 			(xy 347.98 146.05) (xy 354.33 146.05)
 		)
 		(stroke
@@ -4862,7 +5101,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 220.98) (xy 363.22 220.98)
+			(xy 354.33 220.98) (xy 388.62 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5896,28 +6135,6 @@
 			)
 		)
 	)
-	(global_label "TEMP_3v3_MX"
-		(shape input)
-		(at 363.22 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b746c310-4bc5-4193-8f22-d90b126ed89e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.0259 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label " V_IN (Unreg2 OCP to S-band RX)"
 		(shape input)
 		(at 219.71 203.2 0)
@@ -5964,7 +6181,7 @@
 	)
 	(global_label "TEMP_3v3_MX"
 		(shape input)
-		(at 379.73 138.43 0)
+		(at 388.62 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5974,7 +6191,7 @@
 		)
 		(uuid "f92896ab-db5c-4da4-bd24-0b65e8e26626")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.5359 138.43 0)
+			(at 388.62 122.6241 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,101 +7778,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom-Symbols:LTC4361CTS8-2TRMPBF")
-		(at 330.2 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e86c3ef-05f5-4f0c-888b-0344f5785628")
-		(property "Reference" "U1"
-			(at 330.2 127 0)
-			(effects
-				(font
-					(size 2.0848 1.772)
-				)
-			)
-		)
-		(property "Value" "LTC4361CTS8-2TRMPBF"
-			(at 330.2 130.81 0)
-			(effects
-				(font
-					(size 2.0859 1.773)
-				)
-			)
-		)
-		(property "Footprint" "Custom-Footprints:LTC4361HTS8"
-			(at 314.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C688257"
-			(at 330.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6146c59b-0ffe-4662-a633-a4559440de1d")
-		)
-		(pin "7"
-			(uuid "267d792d-836a-4cd7-beb9-056fc315b03d")
-		)
-		(pin "8"
-			(uuid "7038f9f0-ab3b-4a0b-a6cf-75031fcfbe4f")
-		)
-		(pin "2"
-			(uuid "477ce9a6-5b0b-4f70-8b48-ecb8aac57f17")
-		)
-		(pin "6"
-			(uuid "3ac7fdb6-b272-40c7-b826-d49c9b6214cd")
-		)
-		(pin "4"
-			(uuid "ca2bbfe9-a119-4560-8f80-ec77f391a4bb")
-		)
-		(pin "5"
-			(uuid "96541b93-0001-42da-8bfc-1d771afa8188")
-		)
-		(pin "1"
-			(uuid "722a09c0-aeac-459a-8268-302aa6c17b64")
-		)
-		(instances
-			(project "BP-PCB-Kicad"
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 95.25 267.97 0)
 		(unit 1)
@@ -8620,71 +8742,6 @@
 			(project "BP-PCB-Kicad"
 				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 350.52 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75997566-b087-4731-932d-68b7b54e2d34")
-		(property "Reference" "#FLG02"
-			(at 350.52 219.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 350.52 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 350.52 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7484d12f-b4d7-462a-a87c-6adb4b69b2c4")
-		)
-		(instances
-			(project "BP-PCB-Kicad"
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10379,6 +10436,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom-Symbols:LTC4361CTS8-2TRMPBF")
+		(at 327.66 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a71ae748-2ac4-463e-a1b7-87864c02a9b5")
+		(property "Reference" "U2"
+			(at 327.66 33.02 0)
+			(effects
+				(font
+					(size 2.0848 1.772)
+				)
+			)
+		)
+		(property "Value" "LTC4361CTS8-2TRMPBF"
+			(at 327.66 36.83 0)
+			(effects
+				(font
+					(size 2.0859 1.773)
+				)
+			)
+		)
+		(property "Footprint" "Custom-Footprints:LTC4361HTS8"
+			(at 312.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "36338f5a-ef57-4ef4-9c83-bad0c3d71301")
+		)
+		(pin "7"
+			(uuid "0ce2e041-47ba-4fe3-a6c8-492baf20307d")
+		)
+		(pin "8"
+			(uuid "7d23f9fa-65ce-4684-8a3f-12682dbc18c8")
+		)
+		(pin "2"
+			(uuid "62d05ecf-da9a-4ccd-a9bb-9afdb5f65238")
+		)
+		(pin "3"
+			(uuid "79af4a1a-8656-4595-bdec-16ca6ff33d40")
+		)
+		(pin "6"
+			(uuid "a36c872d-3b4c-4187-9d95-fa0041a50d22")
+		)
+		(pin "4"
+			(uuid "58f2791e-3e09-4f55-924d-3d31ef5088d9")
+		)
+		(pin "1"
+			(uuid "b01c0f1a-c887-45e0-9cdf-33741d7b722d")
+		)
+		(instances
+			(project ""
+				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 354.33 237.49 90)
 		(unit 1)
@@ -11081,101 +11224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom-Symbols:LTC4361CTS8-2TRMPBF")
-		(at 327.66 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1f3c1c0-2bd8-4a90-8d1b-30df30b3a6a1")
-		(property "Reference" "U2"
-			(at 327.66 33.02 0)
-			(effects
-				(font
-					(size 2.0848 1.772)
-				)
-			)
-		)
-		(property "Value" "LTC4361CTS8-2TRMPBF"
-			(at 327.66 36.83 0)
-			(effects
-				(font
-					(size 2.0859 1.773)
-				)
-			)
-		)
-		(property "Footprint" "Custom-Footprints:LTC4361HTS8"
-			(at 312.42 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C688257"
-			(at 327.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7f83fa12-6b22-4f54-9abf-1d81c3d86ef4")
-		)
-		(pin "7"
-			(uuid "f7c665ad-7b10-49c5-bcf5-bb555b9642e9")
-		)
-		(pin "8"
-			(uuid "ae682f18-10af-45f9-8cb1-8a9f2252ccf6")
-		)
-		(pin "2"
-			(uuid "33c7d66f-0e1f-4683-aad9-42d7729361a2")
-		)
-		(pin "6"
-			(uuid "8921d3b5-e2c3-4205-ba22-f804c43c37c7")
-		)
-		(pin "4"
-			(uuid "849b633e-f840-46b6-a982-0d4874f05ffa")
-		)
-		(pin "5"
-			(uuid "34a13a7e-85ee-4207-a16f-65c9f9e3915b")
-		)
-		(pin "1"
-			(uuid "8e76ae53-b6f2-4399-be33-beca8d22d3c1")
-		)
-		(instances
-			(project "BP-PCB-Kicad"
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 129.54 58.42 90)
 		(unit 1)
@@ -11687,6 +11735,93 @@
 			(project "BP-PCB-Kicad"
 				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LTC4361CTS8-2TRMPBF_1")
+		(lib_id "Custom-Symbols:LTC4361CTS8-2TRMPBF")
+		(at 330.2 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a3aa5d-0ce2-4d69-8231-7b374d649143")
+		(property "Reference" "U1"
+			(at 330.2 127 0)
+			(effects
+				(font
+					(size 2.0848 1.772)
+				)
+			)
+		)
+		(property "Value" "LTC4361CTS8-2TRMPBF"
+			(at 330.2 130.81 0)
+			(effects
+				(font
+					(size 2.0859 1.773)
+				)
+			)
+		)
+		(property "Footprint" "Custom-Footprints:LTC4361HTS8"
+			(at 314.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c041a789-9f34-4938-af27-4edc0107ddff")
+		)
+		(pin "8"
+			(uuid "3cf95802-48f5-4d53-aa8f-1c1f14216680")
+		)
+		(pin "3"
+			(uuid "d99283ac-47cd-4589-825c-f99ce326bdcc")
+		)
+		(pin "5"
+			(uuid "5f8f018d-3615-41c6-8679-f7cf7e061cee")
+		)
+		(pin "1"
+			(uuid "98557c0f-3657-4933-88d0-3cc4ff89550e")
+		)
+		(pin "4"
+			(uuid "f9b8d4b9-3da8-4d1b-a6ff-48763365fc45")
+		)
+		(pin "2"
+			(uuid "f1acc030-1d99-445c-ab13-0a4546a98ed7")
+		)
+		(pin "6"
+			(uuid "8167de29-69fc-4b00-8774-1b456b7c7d88")
+		)
+		(instances
+			(project ""
+				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
+					(reference "U1")
 					(unit 1)
 				)
 			)
