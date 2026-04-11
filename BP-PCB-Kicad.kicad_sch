@@ -7296,6 +7296,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 157.48) (xy 369.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9cde06-de24-4055-9787-182f6338168b")
+	)
+	(wire
+		(pts
 			(xy 278.13 262.89) (xy 279.4 262.89)
 		)
 		(stroke
@@ -8896,16 +8906,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 157.48) (xy 369.57 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0ce8a3-82b5-436d-8c2b-f76fd728c50d")
-	)
-	(wire
-		(pts
 			(xy 81.28 200.66) (xy 78.74 200.66)
 		)
 		(stroke
@@ -9736,16 +9736,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 154.94) (xy 369.57 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf66fb14-5aa2-4f5b-94d8-14ad421579ee")
-	)
-	(wire
-		(pts
 			(xy 300.99 69.85) (xy 303.53 69.85)
 		)
 		(stroke
@@ -9763,6 +9753,16 @@
 			(type default)
 		)
 		(uuid "cfc64568-ca63-4879-9cc8-0f819efcbd45")
+	)
+	(wire
+		(pts
+			(xy 367.03 154.94) (xy 369.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0429eaa-95e5-4517-8dfe-6184fb1324f2")
 	)
 	(wire
 		(pts
@@ -10834,7 +10834,7 @@
 	)
 	(global_label "MUX-Thruster UART_1 (MainPIC_to_Thruster)"
 		(shape input)
-		(at 367.03 154.94 180)
+		(at 367.03 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10844,7 +10844,7 @@
 		)
 		(uuid "1490d765-e95d-4ba9-9247-5efff88341c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.3489 154.94 0)
+			(at 321.3489 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +13758,7 @@
 			)
 		)
 	)
-	(global_label "ThermalPIC-MUX-MainPIC_UART "
+	(global_label "MUX-TCB_UART (ThermalPIC_to_MainPIC)"
 		(shape input)
 		(at 288.29 168.91 180)
 		(fields_autoplaced yes)
@@ -13770,7 +13770,7 @@
 		)
 		(uuid "7f88e6a3-966d-443e-a455-8b0098929b5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.434 168.91 0)
+			(at 245.9955 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,7 +15916,7 @@
 	)
 	(global_label "MUX-Thruster UART_1 (Thruster_to_MainPIC)"
 		(shape input)
-		(at 367.03 157.48 180)
+		(at 367.03 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15926,7 +15926,7 @@
 		)
 		(uuid "d467e5e5-3c85-479d-95f0-965c692a5fe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.3489 157.48 0)
+			(at 321.3489 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15980,7 +15980,7 @@
 			)
 		)
 	)
-	(global_label "MainPIC-MUX-ThermalPIC_UART"
+	(global_label "MUX-TCB_UART (MainPIC_to_ThermalPIC)"
 		(shape input)
 		(at 288.29 166.37 180)
 		(fields_autoplaced yes)
@@ -15992,7 +15992,7 @@
 		)
 		(uuid "d55fe93d-12d1-49b9-9217-9b487ff697cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.4016 166.37 0)
+			(at 245.9955 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

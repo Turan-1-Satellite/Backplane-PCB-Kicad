@@ -659,7 +659,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom-Symbols:LTC4380IMS-4#PBF"
+		(symbol "Custom-Symbols:LTC4380IMS-2#PBF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -671,7 +671,7 @@
 					)
 				)
 			)
-			(property "Value" "LTC4380IMS-4#PBF"
+			(property "Value" "LTC4380IMS-2#PBF"
 				(at 19.558 6.096 0)
 				(effects
 					(font
@@ -679,7 +679,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Custom-Footprints:LTC4380IMS-4#PBF"
+			(property "Footprint" "Custom-Footprints:LTC4380IMS-2#PBF"
 				(at 21.336 2.794 0)
 				(effects
 					(font
@@ -706,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTC4380IMS-4#PBF_0_1"
+			(symbol "LTC4380IMS-2#PBF_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -13.97)
@@ -900,7 +900,7 @@
 					)
 				)
 			)
-			(symbol "LTC4380IMS-4#PBF_1_1"
+			(symbol "LTC4380IMS-2#PBF_1_1"
 				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
@@ -1881,287 +1881,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LTC4380IMS-4#PBF_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 19.558 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTC4380IMS-4#PBF"
-				(at 19.558 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Custom-Footprints:LTC4380IMS-4#PBF"
-				(at 21.336 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTC4380IMS-4#PBF_1_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -13.97)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -13.97) (xy 33.02 -13.97)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -13.97) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "GATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "SNS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "TMR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "ON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -7.62 180)
-					(length 7.62)
-					(name "*FLT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -10.16 180)
-					(length 7.62)
-					(name "SEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTC4380IMS-4#PBF_1_1_1"
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "DRN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2444,12 +2163,6 @@
 		(uuid "a6458f3f-0bf6-4e90-aa85-8937c860138b")
 	)
 	(junction
-		(at 184.15 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04d8e076-eede-49ca-a77e-22bb344153c7")
-	)
-	(junction
 		(at 138.43 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2564,12 +2277,6 @@
 		(uuid "3c758fa7-1ebc-4999-a160-e79665c9358e")
 	)
 	(junction
-		(at 200.66 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3ba52a-e33c-4964-a140-9caa4f24755b")
-	)
-	(junction
 		(at 210.82 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2672,12 +2379,6 @@
 		(uuid "6cfb4d13-5ed1-4e02-a82f-34cbe63bf650")
 	)
 	(junction
-		(at 200.66 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72a97b07-c1e0-468c-ab1c-a17dde74c938")
-	)
-	(junction
 		(at 304.8 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2712,12 +2413,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83a79ca5-d156-447c-8530-69183048cc91")
-	)
-	(junction
-		(at 184.15 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85151b1d-7370-4379-823a-4fb93aea887b")
 	)
 	(junction
 		(at 140.97 105.41)
@@ -2961,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 88.9) (xy 200.66 88.9)
+			(xy 195.58 88.9) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3011,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 203.2) (xy 207.01 203.2)
+			(xy 195.58 203.2) (xy 207.01 203.2)
 		)
 		(stroke
 			(width 0)
@@ -3301,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 210.82) (xy 200.66 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a248d2e-7ef5-4229-9a5a-26963cbc63b3")
-	)
-	(wire
-		(pts
 			(xy 142.24 227.33) (xy 142.24 233.68)
 		)
 		(stroke
@@ -3381,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 203.2) (xy 184.15 203.2)
+			(xy 179.07 203.2) (xy 190.5 203.2)
 		)
 		(stroke
 			(width 0)
@@ -3478,16 +3163,6 @@
 			(type default)
 		)
 		(uuid "2be847c2-f399-4f00-a7fd-b2ac605ccb0a")
-	)
-	(wire
-		(pts
-			(xy 195.58 210.82) (xy 200.66 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c4c47cd-5a19-4d53-ab77-1631d6499f51")
 	)
 	(wire
 		(pts
@@ -3881,16 +3556,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 184.15 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50628c2c-eb9b-4159-a26b-920001b4a070")
-	)
-	(wire
-		(pts
 			(xy 138.43 40.64) (xy 138.43 58.42)
 		)
 		(stroke
@@ -4021,16 +3686,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 210.82) (xy 184.15 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1f4fa0-c738-4b3f-bd1a-accacc45b130")
-	)
-	(wire
-		(pts
 			(xy 287.02 172.72) (xy 287.02 182.88)
 		)
 		(stroke
@@ -4098,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "63ac1e6f-5342-4d15-9a20-9f37d91ccc15")
-	)
-	(wire
-		(pts
-			(xy 200.66 88.9) (xy 207.01 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b2841a-5512-4e13-bd7d-227b3a866af1")
 	)
 	(wire
 		(pts
@@ -4201,7 +3846,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 179.07 88.9)
+			(xy 179.07 88.9) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4551,16 +4196,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 200.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b64c8e-9670-4cbc-bb69-77599b848b64")
-	)
-	(wire
-		(pts
 			(xy 171.45 46.99) (xy 171.45 110.49)
 		)
 		(stroke
@@ -4701,16 +4336,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 203.2) (xy 179.07 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9120beb1-7a60-493e-8f79-ec0d82b1c4f2")
-	)
-	(wire
-		(pts
 			(xy 287.02 149.86) (xy 287.02 172.72)
 		)
 		(stroke
@@ -4771,16 +4396,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 96.52) (xy 200.66 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98db1b20-d451-4a70-b0f0-8193c9785e4f")
-	)
-	(wire
-		(pts
 			(xy 138.43 35.56) (xy 138.43 38.1)
 		)
 		(stroke
@@ -4808,16 +4423,6 @@
 			(type default)
 		)
 		(uuid "99eb0750-ea44-4780-aedc-a45cf8bccaec")
-	)
-	(wire
-		(pts
-			(xy 190.5 210.82) (xy 184.15 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a78c657-e351-4cd7-b508-589c640f6653")
 	)
 	(wire
 		(pts
@@ -4908,16 +4513,6 @@
 			(type default)
 		)
 		(uuid "a20b4392-2551-40be-93e7-1a458e376c3d")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 184.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a22f6ff2-cdde-46af-b53a-dc06c5860978")
 	)
 	(wire
 		(pts
@@ -5591,16 +5186,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 203.2) (xy 200.66 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e22e55f0-1ea5-432d-b9f4-fa3de55006b4")
-	)
-	(wire
-		(pts
 			(xy 339.09 93.98) (xy 373.38 93.98)
 		)
 		(stroke
@@ -5788,16 +5373,6 @@
 			(type default)
 		)
 		(uuid "f5047fcf-108f-41d5-ab2f-211cf2a8fd42")
-	)
-	(wire
-		(pts
-			(xy 184.15 96.52) (xy 184.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52bd49d-8ace-4d71-9d3b-0006e46d00bd")
 	)
 	(wire
 		(pts
@@ -8813,84 +8388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 193.04 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f04c933-2750-40b7-b2ef-46f39bfacca4")
-		(property "Reference" "R10"
-			(at 192.024 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "25m"
-			(at 196.85 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 193.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 193.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C858607"
-			(at 193.04 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf7a86f8-091d-46c1-be9e-89bd3992cd9f")
-		)
-		(pin "2"
-			(uuid "fa9027f7-77e3-47d1-8be3-6f172faeed50")
-		)
-		(instances
-			(project "BP-PCB-Kicad"
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 210.82 102.87 0)
 		(unit 1)
@@ -9223,84 +8720,6 @@
 			(project "BP-PCB-Kicad"
 				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 193.04 210.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87aefb25-d0da-4f47-ad2b-f4142e2ecd40")
-		(property "Reference" "R17"
-			(at 194.056 207.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "25m"
-			(at 203.2 209.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 193.04 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 193.04 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C858607"
-			(at 193.04 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c0677a7-2621-4ba8-96f5-caab5b9e739a")
-		)
-		(pin "2"
-			(uuid "cca728e9-503d-4348-a205-c285d006f211")
-		)
-		(instances
-			(project "BP-PCB-Kicad"
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9762,106 +9181,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom-Symbols:LTC4380IMS-4#PBF")
-		(at 54.61 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "921f4932-f18e-4e3d-96d9-ed670a79ce0f")
-		(property "Reference" "U6"
-			(at 74.93 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTC4380IMS-4#PBF"
-			(at 74.676 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom-Footprints:LTC4380IMS-4#PBF"
-			(at 75.946 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 4V~72V External FET Surface Mount MSOP-10 Surge Protection Devices (SPDs) ROHS"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C688474"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0f7b9a9-69bd-43f4-8b5a-c9dd1328f737")
-		)
-		(pin "4"
-			(uuid "3fb69329-f02b-4722-a377-49c328ef2711")
-		)
-		(pin "3"
-			(uuid "358e861d-244c-48c9-acec-2adac9def9a6")
-		)
-		(pin "6"
-			(uuid "1cebcb72-ee97-41a0-9538-b70554d97758")
-		)
-		(pin "7"
-			(uuid "7d9ab96b-4283-4e0d-982d-819ba361a954")
-		)
-		(pin "10"
-			(uuid "cb909499-e2fd-4fe0-b932-9574eb1c1593")
-		)
-		(pin "1"
-			(uuid "d12ff098-c86b-4626-97dc-6171395ff207")
-		)
-		(pin "8"
-			(uuid "02f1cf0b-e138-452a-975d-3f683f1c4142")
-		)
-		(pin "5"
-			(uuid "516aba53-a3c0-4552-b467-bc336341a946")
-		)
-		(pin "9"
-			(uuid "787d0963-353b-4d42-98c6-9c937e1eb7b3")
-		)
-		(instances
-			(project ""
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 100.33 0)
 		(unit 1)
@@ -10215,6 +9534,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom-Symbols:LTC4380IMS-2#PBF")
+		(at 54.61 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a207f951-af26-429e-a426-ce03ce5ad6b5")
+		(property "Reference" "U4"
+			(at 74.676 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4380IMS-2#PBF"
+			(at 74.93 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom-Footprints:LTC4380IMS-2#PBF"
+			(at 75.946 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C117125"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bf13be0c-31e8-49f2-9723-576d3ee06359")
+		)
+		(pin "10"
+			(uuid "cb020914-42b2-4407-aa50-2686062979a6")
+		)
+		(pin "3"
+			(uuid "ad6b9268-d397-40a3-8b36-ec435e534059")
+		)
+		(pin "4"
+			(uuid "74fac17f-fe1b-4c42-a59f-b04dbf698e02")
+		)
+		(pin "9"
+			(uuid "594eafc6-d34e-41ca-8215-d3dea06328fe")
+		)
+		(pin "7"
+			(uuid "a36cce35-1511-4e46-9346-4d912d1aa8cf")
+		)
+		(pin "2"
+			(uuid "53f3c174-f276-4e67-8c04-3c4d939f93ff")
+		)
+		(pin "6"
+			(uuid "7a18e14d-6146-4f7e-97f5-59e1e2458798")
+		)
+		(pin "1"
+			(uuid "ed3cc5bc-662f-4067-b8db-9ea39165536f")
+		)
+		(pin "8"
+			(uuid "29ea801a-2115-448f-a408-08a9d314c006")
+		)
+		(instances
+			(project ""
+				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 351.79 60.96 0)
 		(unit 1)
@@ -10522,6 +9941,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom-Symbols:LTC4380IMS-2#PBF")
+		(at 54.61 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a93dfc38-2953-47cd-bf70-0dba2d2cec99")
+		(property "Reference" "U6"
+			(at 74.676 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4380IMS-2#PBF"
+			(at 74.676 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom-Footprints:LTC4380IMS-2#PBF"
+			(at 75.946 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C117125"
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa204923-fe39-4946-b488-e424725d275d")
+		)
+		(pin "3"
+			(uuid "3264f5ea-fe16-4d26-b30a-995bb9d444c8")
+		)
+		(pin "9"
+			(uuid "b7bf18e9-1311-4728-ab18-0833d75f32e0")
+		)
+		(pin "7"
+			(uuid "d2d4a841-ad7b-4fcf-bdb6-c301623385a4")
+		)
+		(pin "6"
+			(uuid "4e75ae07-f3f9-46c3-92f8-369688db5d25")
+		)
+		(pin "8"
+			(uuid "0ba0acad-26a0-41a8-aaaf-f903b2a3800a")
+		)
+		(pin "2"
+			(uuid "6f2b04cd-ff5d-434b-a50e-a87adf6cbe6f")
+		)
+		(pin "4"
+			(uuid "d473e515-76fa-496c-97d5-b216b6fd2a5d")
+		)
+		(pin "5"
+			(uuid "ce79c2be-685c-4286-af42-095a043064b6")
+		)
+		(pin "10"
+			(uuid "dc263623-c08a-4d73-8d60-daeaede2029b")
+		)
+		(instances
+			(project ""
+				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 354.33 237.49 90)
 		(unit 1)
@@ -10813,7 +10332,7 @@
 			)
 		)
 		(property "Value" "25m"
-			(at 203.2 201.676 90)
+			(at 198.374 201.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,107 +10558,6 @@
 			(project ""
 				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "LTC4380IMS-4#PBF_1")
-		(lib_id "Custom-Symbols:LTC4380IMS-4#PBF")
-		(at 54.61 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c24b0f41-f26f-4c55-bbc8-ab06e72bf597")
-		(property "Reference" "U4"
-			(at 73.66 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTC4380IMS-4#PBF"
-			(at 74.676 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom-Footprints:LTC4380IMS-4#PBF"
-			(at 75.946 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 4V~72V External FET Surface Mount MSOP-10 Surge Protection Devices (SPDs) ROHS"
-			(at 54.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C688474"
-			(at 54.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "eba4fa3a-c516-4e91-9d0b-2117be3ccdc0")
-		)
-		(pin "8"
-			(uuid "a320710c-7277-4032-9623-9c5d554d3f59")
-		)
-		(pin "2"
-			(uuid "a11baaf5-ea2f-4846-9581-af1e0cc84594")
-		)
-		(pin "1"
-			(uuid "a7100458-ffcd-4434-bb85-c31cde668df9")
-		)
-		(pin "3"
-			(uuid "abdbd7a7-8e8c-42da-a6b6-8704c402df9a")
-		)
-		(pin "6"
-			(uuid "ee528057-262a-434a-ad1e-8da2445118a5")
-		)
-		(pin "4"
-			(uuid "352972db-ff6a-40e6-8874-f17bdcf0e7cf")
-		)
-		(pin "5"
-			(uuid "79472da8-985d-4b63-a3f4-ddecd8627e53")
-		)
-		(pin "10"
-			(uuid "26f7378e-f1f1-49e5-8596-ba3388dee62a")
-		)
-		(pin "7"
-			(uuid "692195ec-4ff7-4949-a9c0-5ab22ca35712")
-		)
-		(instances
-			(project ""
-				(path "/da3a05e5-7f1e-43cd-9425-16ff965529d1/b13c3f99-87b6-43ee-99ee-c97ccd64f2f6"
-					(reference "U4")
 					(unit 1)
 				)
 			)
